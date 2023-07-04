@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheets" href="card.sass" />
+    <title>Document</title>
+    <style>
+        
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+ font-family:  'Raleway', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 100vw;
+  height: 10v;
+  /* background-image:  url("https://images.pexels.com/photos/575362/pexels-photo-575362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+  background-color: #fff;
+  background-size: cover;
+  }
+
+/* Price Cards */
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  margin: 8px 30px;
+  min-width: 350px;
+  padding: 0;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.16), 
+              0 8px 8px rgba(0,0,0,0.20);
+  
+  .card-top {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 8px 20px;
+    height: 16px;
+    background-color: #1f4b9c;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+    
+    }
+  }
+.card-img{
+  margin-top: 15px;
+  margin-bottom : 15px;
+  height:120px;
+  /* // width:200px */
+}
+.card-title {
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  
+  .card-bottom {
+    padding-top: 2px;
+    text-align:center;
+    height: 50px;
+    margin: 0;
+    background-color: #1f4b9c;
+    color:  #fff;;
+    border-radius: 0 0 10px 10px;
+   
+    
+  }
+.card-caption{
+  font-size:17px;
+  font-weight:400
+  
+}
+
+
+  
+/* Media */ 
+
+@media (max-width: 1000px) {
+  .cards-container {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="cards-container">
+      <div class="card">
+        <div class="card-top">
+        </div>
+        <img class ="card-img" src="nba.jpg">
+        <div class="card-bottom">
+            <h1 class="card-caption">Accredited by <strong>NBA</strong></h1>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-top">
+        </div>
+        <img class ="card-img" src="naac.jpg">
+        <div class="card-bottom">
+            <h1 class="card-caption">Accredited by <strong>NAAC</strong></h1>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-top">
+        </div>
+        <img class ="card-img" src="aicte.jpg">
+        <div class="card-bottom">
+            <h1 class="card-caption">Approved by <strong>AICTE</strong></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    
+  
+  
+</body>
+</html>

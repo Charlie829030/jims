@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<!--META-->	
+  <meta charset="UTF-8">
+  <meta name="description" content="...">
+  <meta name="keywords" content="...">
+  <meta name="author" content="MB">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>event-cards</title>
+<!--LINKS-->
+	
+	<!--Bootstrap CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+}
+
+.upEvents{
+	color:#2054b2;
+	margin-left: -45rem;
+	margin-bottom: -20px;
+}
+
+section{
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.event-cards{
+	display:flex;
+	justify-content:center;
+	flex-direction:row;
+ 
+}
+
+img{
+	width:1000px;
+	padding-left:0px;
+}
+
+.ev-body{
+	padding:10px;
+	display:flex;
+	justify-content:left;
+	align-items:left;
+	flex-direction:column;
+	margin-top:50px;
+	margin-left:10px;
+}
+.ev-caption{
+	color:white;
+	font-weight:400;
+	font-size:.8em;
+	letter-spacing:1px;
+	width: 95%;
+}
+.ev-title{
+	color:white;
+	font-weight:700;
+	font-size:1.5em;
+	letter-spacing:1px;
+	margin-bottom:5px;
+}
+
+.date-container{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	background-color:#fff;
+	padding-top:2px;
+	margin-top:-90px;
+	margin-bottom:20px;	
+	height:67px;
+	width:80px;
+	font-family: 'Poppins', sans-serif;
+	text-transform:uppercase;
+}
+
+.month{
+	color:#000;
+	font-size:0.8em;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	margin-bottom: -8px;
+}
+.day{
+	color:#2054b2;
+	font-size:1.8em;
+	font-weight:900;
+}
+
+.ev-image{
+	display:flex;
+	height:50%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.card-wrapper{	
+	font-family:arial;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.card-container{
+  margin:20px;
+  cursor: pointer;
+  height: 400px;
+  perspective: 500;
+  position: relative;
+  width: 320px;
+  transform-style: preserve-3d;
+  transition: all .5s ease-in-out;
+/* 	box-shadow:0px 4px 8px 0px grey; */
+	margin:20px;
+}
+.front {
+  background:#1f4b9c;
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  outline: 0px solid grey;
+  outline-offset:-10px;
+}
+
+.back {
+	display:flex;
+  background:#eee;
+  color:#125676;
+  text-align: center;
+  transform: rotateY(180deg);
+	align-items:center;
+	justify-content:center;
+	font-weight:700;
+	font-family:arial;
+	font-size:1.2em;
+	padding:20px;
+}
+    </style>
+
+</head>
+	
+<body style="background-color:white;"  >
+
+	<section>
+	<h1 class="upEvents">Upcoming Events</h1> <br>
+	
+	<div class="event-cards">
+		<!--Card Container-->
+			<div class="card-container">
+				<div class="front">
+					<div class="ev-image">
+						 <img src="event1.jpg">
+					</div>
+					<div class="ev-body">
+						<div class="date-container">
+						<div class="month">June</div>
+						<div class="day">30</div>
+					</div>
+						<div class="ev-title">Event 1</div>
+						<p class="ev-caption">Here we talk about the different
+		speakers and leaders. Here we
+							talk about the different......</p>
+					</div>
+				</div>
+					<div class="front back">Hello</div>
+			</div>
+			<!--End Card Container-->	
+			<!--Card Container-->
+			<div class="card-container">
+				<div class="front">
+					<div class="ev-image">
+						 <img src="event2.jpg">
+					</div>
+					<div class="ev-body">
+						<div class="date-container">
+						<div class="month">June</div>
+						<div class="day">30</div>
+					</div>
+						<div class="ev-title">Event 1</div>
+						<p class="ev-caption">Here we talk about the different
+		speakers and leaders. Here we
+							talk about the different......</p>
+					</div>
+				</div>
+					<div class="front back">Hello</div>
+			</div>
+			<!--End Card Container-->	
+			
+			<!--Card Container-->
+			<div class="card-container">
+				<div class="front">
+					<div class="ev-image">
+						 <img src="event3.jpg">
+					</div>
+					<div class="ev-body">
+						<div class="date-container">
+						<div class="month">June</div>
+						<div class="day">30</div>
+					</div>
+						<div class="ev-title">Event 1</div>
+						<p class="ev-caption">Here we talk about the different
+		speakers and leaders. Here we
+							talk about the different......</p>
+					</div>
+				</div>
+					<div class="front back">Hello</div>
+			</div>
+			<!--End Card Container-->	
+			
+		</div>
+		
+	</section>
+</body>
+</html>
+
