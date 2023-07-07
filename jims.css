@@ -1353,6 +1353,7 @@ text-align: center;
   position: relative;
   height: 75vh;
   background-blend-mode:soft-light;
+  margin-top: -200px;
 }
 
 .hostel-text .textboy {
