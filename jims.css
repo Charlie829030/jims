@@ -1034,9 +1034,11 @@ text-align: center;
   justify-content: space-between;
 }
 
-#navbar .logo{
-  margin-top: -20px;
+#navbar .logo .lg{
+  margin-top: -28px;
   margin-left: 100px;
+  width: 200px;
+  height: 150px;
 }
 
 #navbar .name ul{
