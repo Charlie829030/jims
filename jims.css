@@ -1076,7 +1076,10 @@ text-align: center;
 
 @media screen and (max-width: 600px)
 {
-
+	
+body{
+  overflow-x: hidden;
+}
 
 #navbar{
   width: 100%;
