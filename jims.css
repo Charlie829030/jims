@@ -991,6 +991,65 @@ text-align: center;
 
 
 
+#grid{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: 200px;
+}
+
+#grid .AK .bg img{
+  border-radius: 8px;
+  position: absolute;
+  left: 120px;
+  
+}
+
+#grid .AK .sm img{
+  border-radius: 8px;
+  position: absolute;
+  right: 80px;
+  
+}
+
+#grid .AK .bg .p1{
+  width: 800px; 
+  height: 570px;
+}
+
+#grid .AK .sm .p2{
+  width: 450px; 
+  height: 275px;
+}
+
+#grid .AK .sm .p3{
+  width: 450px; 
+  height: 275px; position: 
+  absolute; 
+  top: 356px;
+}
+
+
+
+.heading h1{
+  
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+  color: #1f4b9c;
+  font-family: 'Roboto', sans-serif;
+  font-size: bolder;
+  margin-top: 100px;
+  margin-bottom: 15px;
+  position: relative;
+  left: 120px;
+  top: 20px;
+
+} 
+
+
+
+
+
 
 
 
@@ -1550,5 +1609,46 @@ img {
 }
 
 
+
+
+  
+
+#grid .AK .bg .p1{
+  width: 500px; 
+  height: 330px;
+  position: absolute;
+  left: 55px;
+}
+
+#grid .AK .sm .p2{
+  width: 220px; 
+  height: 230px;
+  position: absolute;
+  top: 370px;
+  left: 70px;
+}
+
+#grid .AK .sm .p3{
+  width: 220px; 
+  height: 230px; 
+  position: absolute; 
+  top: 370px;
+  left: 320px;
+
+}
+
+
+.heading h1{
+    
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  color: #1f4b9c;
+  font-family: 'Roboto', sans-serif;
+  font-size: bolder;
+  position: relative;
+  top: 40px;
+  left: 60px;
+
+} 
 
 }
