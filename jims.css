@@ -935,6 +935,62 @@ text-align: center;
 
 
 
+.box .dream .sp1{
+    width: 600px; 
+    height: 700px; 
+    position: absolute; 
+    top: 80px;
+}
+
+
+
+.box .dream .sp2{
+    width: 250px; 
+    height: 380px; 
+    position: absolute; 
+    top: 400px; 
+    left: 616px;
+}
+
+
+.box .dream .sp3{
+    width: 250px; 
+    height: 380px; 
+    position: absolute; 
+    top: 400px; left: 
+    885px;
+}
+
+
+.box .dream .sp4{
+    width: 350px; 
+    height: 235px; 
+    position: absolute; 
+    top: 545px; 
+    left: 1150px;
+}
+
+
+.box .dream .sp5{
+    width: 330px; 
+    height: 450px; 
+    position: absolute; 
+    top: 80px; 
+    left: 1150px;
+}
+
+
+.box .dream .sp6{
+    width: 520px; 
+    height: 300px; 
+    position: absolute; 
+    top: 80px; 
+    left: 616px;
+}
+
+
+
+
 
 
 
@@ -1439,6 +1495,60 @@ img {
 }
 
 
+
+   .box .dream .sp1{
+        width: 180px; 
+        height: 180px; 
+        position: absolute; 
+        top: 80px;
+        left: 12px;
+    }
+
+    
+
+.box .dream .sp2{
+    width: 180px; 
+    height: 180px; 
+    position: absolute; 
+    top: 80px; 
+    left: 206px;
+}
+
+
+.box .dream .sp3{
+    width: 180px; 
+    height: 180px; 
+    position: absolute; 
+    top: 80px; 
+    left: 400px;
+}
+
+
+.box .dream .sp4{
+    width: 180px; 
+    height: 180px; 
+    position: absolute; 
+    top: 270px; 
+    left: 12px;
+}
+
+
+.box .dream .sp5{
+    width: 180px; 
+    height: 180px; 
+    position: absolute; 
+    top: 270px; 
+    left: 206px;
+}
+
+
+.box .dream .sp6{
+    width: 180px; 
+    height: 180px; 
+    position: absolute; 
+    top: 270px; 
+    left: 400px;
+}
 
 
 
